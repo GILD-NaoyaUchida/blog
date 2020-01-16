@@ -1,0 +1,121 @@
+header{
+    text-align: right;
+    padding: 10px 10px;
+    background: gold;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    position: absolute;
+    left: 50px;
+    top: -10px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.back-namber{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+footer{
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin-top: auto;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 340px;
+    text-align: center;
+}
+.login-form{
+    background: black;
+    box-shadow: 0 0 20px;
+}
+h3{
+    margin: 0 10px 0px;
+    color: white;
+    font-size: 20px;
+}
+.login-form a{
+    margin: 10px;
+}
+.login-form p{
+    margin: 5PX;
+}
+.login-form input{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: black;
+}
+input::placeholder{
+    color: lightgray;
+}
+input[type="submit"]{
+    background: lightgray;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background: lightslategray;
+}
+section a{
+    display: block;
+    color: blue;
+}
+.signin{
+    margin: 20px 10% 0 20%;
+    width: 60%;
+}
+.profile{
+    position: absolute;
+    top: 76px;
+    left: 50px;
+}
+.profile p{
+    color: blue;
+    font-size: 11px;
+}
+.value p{
+    margin: 0px;
+    float: left;
+    font-size: 50px;
+    color:deepskyblue;
+}
+input.title1{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+textarea.kiji1{
+    width: 400px;
+    height: 250px;
+    font-size: 15px;
+}
+.value a{
+    color: deepskyblue;
+}

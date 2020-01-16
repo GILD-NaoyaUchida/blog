@@ -1,0 +1,11 @@
+.back-namber{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.value p{
+    margin: 0px;
+    float: left;
+    font-size: 50px;
+    color:deepskyblue;
+}
